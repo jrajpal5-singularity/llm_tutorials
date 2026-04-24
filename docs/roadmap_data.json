@@ -1,0 +1,222 @@
+{
+  "project": {
+    "name": "Beginner LLM Learning Roadmap",
+    "start_date": null,
+    "track": "adaptive",
+    "status_values": [
+      "Not started",
+      "In progress",
+      "Blocked",
+      "Done"
+    ]
+  },
+  "phases": [
+    {
+      "id": "phase-0",
+      "phase_label": "Phase 0",
+      "chapter_title": "Chapter 1 - Understand a simple LLM app",
+      "chapter_target": "Understand a simple LLM app",
+      "duration": "1-2 days",
+      "schedule": {
+        "duration_days": 2
+      },
+      "actual_start": null,
+      "actual_end": null,
+      "status": "Not started",
+      "progress_percent": 0,
+      "next_step": "",
+      "notes": "",
+      "goals": [
+        "Understand input -> prompt or context -> LLM -> answer",
+        "Define the smallest useful LLM app",
+        "Identify what the model does and what the program does",
+        "Write down open questions before building"
+      ],
+      "logs": []
+    },
+    {
+      "id": "phase-1",
+      "phase_label": "Phase 1",
+      "chapter_title": "Chapter 2 - Run your first LLM",
+      "chapter_target": "Run your first LLM",
+      "duration": "1-2 weeks",
+      "schedule": {
+        "duration_days": 14
+      },
+      "actual_start": null,
+      "actual_end": null,
+      "status": "Not started",
+      "progress_percent": 0,
+      "next_step": "",
+      "notes": "",
+      "goals": [
+        "Run a model through an API or local runtime",
+        "Understand tokens, prompts, and responses",
+        "Measure simple latency",
+        "Learn the difference between local and hosted models"
+      ],
+      "logs": []
+    },
+    {
+      "id": "phase-2",
+      "phase_label": "Phase 2",
+      "chapter_title": "Chapter 3 - Learn prompting basics",
+      "chapter_target": "Learn prompting basics",
+      "duration": "1-2 weeks",
+      "schedule": {
+        "duration_days": 14
+      },
+      "actual_start": null,
+      "actual_end": null,
+      "status": "Not started",
+      "progress_percent": 0,
+      "next_step": "",
+      "notes": "",
+      "goals": [
+        "Learn system, user, and assistant message roles",
+        "Write simple prompts for summarization, extraction, and question answering",
+        "Compare prompt variants and observe output changes",
+        "Learn when examples improve results"
+      ],
+      "logs": []
+    },
+    {
+      "id": "phase-3",
+      "phase_label": "Phase 3",
+      "chapter_title": "Chapter 4 - Add memory with RAG",
+      "chapter_target": "Add memory with RAG",
+      "duration": "1-2 weeks",
+      "schedule": {
+        "duration_days": 14
+      },
+      "actual_start": null,
+      "actual_end": null,
+      "status": "Not started",
+      "progress_percent": 0,
+      "next_step": "",
+      "notes": "",
+      "goals": [
+        "Learn embeddings, chunking, and retrieval",
+        "Use a simple vector store",
+        "Retrieve useful context for a prompt",
+        "Build a basic RAG flow"
+      ],
+      "logs": []
+    },
+    {
+      "id": "phase-4",
+      "phase_label": "Phase 4",
+      "chapter_title": "Chapter 5 - Add tools and structured output",
+      "chapter_target": "Add tools and structured output",
+      "duration": "1 week",
+      "schedule": {
+        "duration_days": 7
+      },
+      "actual_start": null,
+      "actual_end": null,
+      "status": "Not started",
+      "progress_percent": 0,
+      "next_step": "",
+      "notes": "",
+      "goals": [
+        "Learn structured outputs and tool calling",
+        "Start with one simple tool",
+        "Return predictable JSON-like results",
+        "Build LLM -> tool -> answer flow"
+      ],
+      "logs": []
+    },
+    {
+      "id": "phase-5",
+      "phase_label": "Phase 5",
+      "chapter_title": "Chapter 6 - Build a small end-to-end app",
+      "chapter_target": "Build a small end-to-end app",
+      "duration": "2 weeks",
+      "schedule": {
+        "duration_days": 14
+      },
+      "actual_start": null,
+      "actual_end": null,
+      "status": "Not started",
+      "progress_percent": 0,
+      "next_step": "",
+      "notes": "",
+      "goals": [
+        "Connect input, prompt building, model call, and output",
+        "Add retrieval or a tool when needed",
+        "Keep the app small and understandable",
+        "Produce a working end-to-end demo"
+      ],
+      "logs": []
+    },
+    {
+      "id": "phase-6",
+      "phase_label": "Phase 6",
+      "chapter_title": "Chapter 7 - Serve the app",
+      "chapter_target": "Serve the app",
+      "duration": "1-2 weeks",
+      "schedule": {
+        "duration_days": 14
+      },
+      "actual_start": null,
+      "actual_end": null,
+      "status": "Not started",
+      "progress_percent": 0,
+      "next_step": "",
+      "notes": "",
+      "goals": [
+        "Wrap the app in a simple API",
+        "Learn basic deployment ideas",
+        "Serve requests reliably",
+        "Measure basic performance"
+      ],
+      "logs": []
+    },
+    {
+      "id": "phase-7",
+      "phase_label": "Phase 7",
+      "chapter_title": "Chapter 8 - Check quality and reliability",
+      "chapter_target": "Check quality and reliability",
+      "duration": "1 week",
+      "schedule": {
+        "duration_days": 7
+      },
+      "actual_start": null,
+      "actual_end": null,
+      "status": "Not started",
+      "progress_percent": 0,
+      "next_step": "",
+      "notes": "",
+      "goals": [
+        "Check answer quality",
+        "Check prompt quality",
+        "Check retrieval or tool-use quality",
+        "Build a small evaluation checklist"
+      ],
+      "logs": []
+    },
+    {
+      "id": "phase-8",
+      "phase_label": "Phase 8",
+      "chapter_title": "Chapter 9 - Optimize only after it works",
+      "chapter_target": "Optimize only after it works",
+      "duration": "2-3 weeks",
+      "schedule": {
+        "duration_days": 21
+      },
+      "actual_start": null,
+      "actual_end": null,
+      "status": "Not started",
+      "progress_percent": 0,
+      "next_step": "",
+      "notes": "",
+      "goals": [
+        "Measure what is slow",
+        "Learn simple optimization options",
+        "Compare model size, speed, and quality",
+        "Improve performance without overcomplicating the app"
+      ],
+      "logs": []
+    }
+  ]
+}
