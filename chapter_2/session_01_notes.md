@@ -42,6 +42,10 @@ Papers: [[docs/research_papers_index]]
 ## Session Timeline
 
 - 2026-04-23 02:07 IST - Created the Chapter 2 scaffold and moved the active learning path to Chapter 2.
+- 2026-04-25 16:03 IST - Checked the Chapter 2 quick exercises; exercise 2 still needs a changed system instruction and a mock response that can show the style difference.
+- 2026-04-25 16:04 IST - Rechecked Chapter 2 after edits; the system instruction changed, but the mock response still ignores the prompt and answers an out-of-scope LLM question.
+- 2026-04-25 16:35 IST - Rechecked Chapter 2 again; the code runs, but exercise 2 is still incomplete because the mock response ignores the prompt, and exercise 3 measures the artificial sleep delay.
+- 2026-04-25 16:38 IST - Fixed the Chapter 2 quick exercise flow: the mock response now respects the fitness and health scope, and elapsed timing measures the mock model call instead of a delay between runs.
 
 ## Questions
 

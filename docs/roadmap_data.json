@@ -1,7 +1,7 @@
 {
   "project": {
     "name": "Beginner LLM Learning Roadmap",
-    "start_date": null,
+    "start_date": "2026-04-26",
     "track": "adaptive",
     "status_values": [
       "Not started",
@@ -66,11 +66,11 @@
       "schedule": {
         "duration_days": 14
       },
-      "actual_start": null,
+      "actual_start": "2026-04-26",
       "actual_end": null,
-      "status": "Not started",
-      "progress_percent": 0,
-      "next_step": "",
+      "status": "In progress",
+      "progress_percent": 5,
+      "next_step": "Run chapter_3/main.py and complete the quick prompt exercises.",
       "notes": "",
       "goals": [
         "Learn system, user, and assistant message roles",
@@ -78,7 +78,17 @@
         "Compare prompt variants and observe output changes",
         "Learn when examples improve results"
       ],
-      "logs": []
+      "logs": [
+        {
+          "log_id": "PHASE-2-001",
+          "timestamp": "2026-04-26T00:05:00",
+          "type": "update",
+          "ticket": "",
+          "hours": null,
+          "summary": "Moved active work to Chapter 3",
+          "details": "Created Chapter 3 scaffold for prompting basics and context engineering."
+        }
+      ]
     },
     {
       "id": "phase-3",

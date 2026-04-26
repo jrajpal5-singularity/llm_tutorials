@@ -2,11 +2,19 @@
 
 This roadmap is designed for a first-time LLM learner. It assumes no computer vision background and builds from the simplest useful LLM app toward retrieval, tools, serving, evaluation, and optimization.
 
+## Current Focus
+
+- Active chapter: [Chapter 3 - Learn Prompting Basics](chapter_3/chapter_3_readme.md)
+- Active session note: [chapter_3/session_01_notes.md](chapter_3/session_01_notes.md)
+- Next step: run `python chapter_3/main.py` and complete the quick prompt exercises.
+- Reference book: [Prompt Engineering for LLMs](https://www.oreilly.com/library/view/prompt-engineering-for/9781098156145/) by John Berryman and Albert Ziegler.
+
 ## Table of Contents
 
 - [Chapters Index](docs/chapters_index.md)
 - [Obsidian Vault Architecture](docs/obsidian_vault_architecture.md)
 - [Research Papers Index](docs/research_papers_index.md)
+- [Current Focus](#current-focus)
 - [Schedule Overview](#schedule-overview)
 - [Progress Tracker](#progress-tracker)
 - [Tracking Workflow](#tracking-workflow)
@@ -28,21 +36,21 @@ This roadmap is designed for a first-time LLM learner. It assumes no computer vi
 ## Schedule Overview
 
 <!-- AUTO_SCHEDULE_NOTE_START -->
-This schedule is not fixed yet. It will be auto-generated from the day you first start a phase with `docs/roadmap_tracker.py update ...`.
+This schedule is anchored to your actual roadmap start date: `2026-04-26`. Future phase dates update from that starting point.
 <!-- AUTO_SCHEDULE_NOTE_END -->
 
 <!-- AUTO_SCHEDULE_START -->
 | Phase | Chapter | Planned Start | Planned End | Duration |
 | --- | --- | --- | --- | --- |
-| Phase 0 | Understand a simple LLM app | Auto on first update | Auto on first update | 1-2 days |
-| Phase 1 | Run your first LLM | Auto on first update | Auto on first update | 1-2 weeks |
-| Phase 2 | Learn prompting basics | Auto on first update | Auto on first update | 1-2 weeks |
-| Phase 3 | Add memory with RAG | Auto on first update | Auto on first update | 1-2 weeks |
-| Phase 4 | Add tools and structured output | Auto on first update | Auto on first update | 1 week |
-| Phase 5 | Build a small end-to-end app | Auto on first update | Auto on first update | 2 weeks |
-| Phase 6 | Serve the app | Auto on first update | Auto on first update | 1-2 weeks |
-| Phase 7 | Check quality and reliability | Auto on first update | Auto on first update | 1 week |
-| Phase 8 | Optimize only after it works | Auto on first update | Auto on first update | 2-3 weeks |
+| Phase 0 | Understand a simple LLM app | 2026-04-26 | 2026-04-27 | 1-2 days |
+| Phase 1 | Run your first LLM | 2026-04-28 | 2026-05-11 | 1-2 weeks |
+| Phase 2 | Learn prompting basics | 2026-05-12 | 2026-05-25 | 1-2 weeks |
+| Phase 3 | Add memory with RAG | 2026-05-26 | 2026-06-08 | 1-2 weeks |
+| Phase 4 | Add tools and structured output | 2026-06-09 | 2026-06-15 | 1 week |
+| Phase 5 | Build a small end-to-end app | 2026-06-16 | 2026-06-29 | 2 weeks |
+| Phase 6 | Serve the app | 2026-06-30 | 2026-07-13 | 1-2 weeks |
+| Phase 7 | Check quality and reliability | 2026-07-14 | 2026-07-20 | 1 week |
+| Phase 8 | Optimize only after it works | 2026-07-21 | 2026-08-10 | 2-3 weeks |
 <!-- AUTO_SCHEDULE_END -->
 
 ## Progress Tracker
@@ -66,19 +74,21 @@ The tracker is backed by `docs/roadmap_data.json` and can be updated with `docs/
 
 | Phase | Chapter Target | Progress % | Status | Planned Start | Planned End | Actual Start | Actual End | Next Step |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Phase 0 | Understand a simple LLM app | 0% | Not started |  |  |  |  |  |
-| Phase 1 | Run your first LLM | 0% | Not started |  |  |  |  |  |
-| Phase 2 | Learn prompting basics | 0% | Not started |  |  |  |  |  |
-| Phase 3 | Add memory with RAG | 0% | Not started |  |  |  |  |  |
-| Phase 4 | Add tools and structured output | 0% | Not started |  |  |  |  |  |
-| Phase 5 | Build a small end-to-end app | 0% | Not started |  |  |  |  |  |
-| Phase 6 | Serve the app | 0% | Not started |  |  |  |  |  |
-| Phase 7 | Check quality and reliability | 0% | Not started |  |  |  |  |  |
-| Phase 8 | Optimize only after it works | 0% | Not started |  |  |  |  |  |
+| Phase 0 | Understand a simple LLM app | 0% | Not started | 2026-04-26 | 2026-04-27 |  |  |  |
+| Phase 1 | Run your first LLM | 0% | Not started | 2026-04-28 | 2026-05-11 |  |  |  |
+| Phase 2 | Learn prompting basics | 5% | In progress | 2026-05-12 | 2026-05-25 | 2026-04-26 |  | Run chapter_3/main.py and complete the quick prompt exercises. |
+| Phase 3 | Add memory with RAG | 0% | Not started | 2026-05-26 | 2026-06-08 |  |  |  |
+| Phase 4 | Add tools and structured output | 0% | Not started | 2026-06-09 | 2026-06-15 |  |  |  |
+| Phase 5 | Build a small end-to-end app | 0% | Not started | 2026-06-16 | 2026-06-29 |  |  |  |
+| Phase 6 | Serve the app | 0% | Not started | 2026-06-30 | 2026-07-13 |  |  |  |
+| Phase 7 | Check quality and reliability | 0% | Not started | 2026-07-14 | 2026-07-20 |  |  |  |
+| Phase 8 | Optimize only after it works | 0% | Not started | 2026-07-21 | 2026-08-10 |  |  |  |
 
 ### Recent Activity Log
 
-No activity logged yet.
+| Log ID | Timestamp | Phase | Type | Ticket | Hours | Summary | Details |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| PHASE-2-001 | 2026-04-26T00:05:00 | Phase 2 | update |  |  | Moved active work to Chapter 3 | Created Chapter 3 scaffold for prompting basics and context engineering. |
 <!-- AUTO_PROGRESS_END -->
 
 ## Tracking Workflow

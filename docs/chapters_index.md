@@ -11,11 +11,18 @@ Papers: [[docs/research_papers_index]]
 - Keep chapter-specific notes inside the corresponding `chapter_n/` folder.
 - Use the papers index when a chapter refers to research reading.
 
+## Active Chapter
+
+- Active: [Chapter 3 - Learn Prompting Basics](../chapter_3/chapter_3_readme.md)
+- Session: [chapter_3/session_01_notes.md](../chapter_3/session_01_notes.md)
+- Next step: run `python chapter_3/main.py` and complete the quick prompt exercises.
+- Reference: [Prompt Engineering for LLMs](https://www.oreilly.com/library/view/prompt-engineering-for/9781098156145/)
+
 ## Chapter Map
 
 - Chapter 1: [chapter_1/chapter_1_readme.md](../chapter_1/chapter_1_readme.md) - understand a simple LLM app
 - Chapter 2: [chapter_2/chapter_2_readme.md](../chapter_2/chapter_2_readme.md) - run your first LLM
-- Chapter 3: `chapter_3/chapter_3_readme.md` - prompting basics
+- Chapter 3: [chapter_3/chapter_3_readme.md](../chapter_3/chapter_3_readme.md) - prompting basics
 - Chapter 4: `chapter_4/chapter_4_readme.md` - add memory with RAG
 - Chapter 5: `chapter_5/chapter_5_readme.md` - tools and structured output
 - Chapter 6: `chapter_6/chapter_6_readme.md` - build a small end-to-end app

@@ -1,5 +1,7 @@
 """Chapter 2 entry point for a first beginner LLM run."""
 
+from time import perf_counter
+
 from utils import default_first_run_plan, format_first_run_plan, run_mock_demo
 
 
@@ -13,4 +15,9 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    for run in range(3):
+        print(f"\n=== Run {run + 1} ===")
+        start_time = perf_counter()
+        main()
+        elapsed_time = perf_counter() - start_time
+        print(f"Total Elapsed Time (s): {elapsed_time:.3f}")
