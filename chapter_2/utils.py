@@ -3,7 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import dataclass, field
-from time import perf_counter
+from time import perf_counter, sleep
 
 
 @dataclass(slots=True)
@@ -24,9 +24,13 @@ def default_first_run_plan() -> FirstRunPlan:
     return FirstRunPlan(
         provider_name="mock provider",
         model_name="mock-llm-v1",
-        system_instruction="You are a helpful assistant. Answer clearly and briefly.",
-        user_question="What is an LLM?",
-        expected_output="A short plain-text answer",
+        system_instruction=(
+            "You are a helpful fitness and health assistant. "
+            "Answer clearly and briefly. "
+            "If a question is outside fitness and health, say it is outside your scope."
+        ),
+        user_question="What is LLM used for?",
+        expected_output="A short answer or a clear out-of-scope response",
         notes=[
             "The starter version uses a mock response so the flow stays easy to understand.",
             "A real provider can be added later without changing the chapter structure.",
@@ -34,7 +38,7 @@ def default_first_run_plan() -> FirstRunPlan:
         open_questions=[
             "Which real provider should be used first?",
             "Should the first real model be local or hosted?",
-            "How should prompt history be stored later?",
+            "How long should prompt history be?",
         ],
     )
 
@@ -50,7 +54,10 @@ def build_prompt(first_run_plan: FirstRunPlan) -> str:
 
 def mock_model_response(prompt: str) -> str:
     """Return a deterministic mock response for the current prompt."""
-    del prompt
+    sleep(0.025)
+    prompt_lower = prompt.lower()
+    if "fitness and health" in prompt_lower and "llm" in prompt_lower:
+        return "That question is outside my fitness and health scope."
     return "An LLM is a language model trained to predict and generate text."
 
 
